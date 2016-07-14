@@ -33,4 +33,4 @@ class marks(student):
         print "Marks in Maths =",self.maths
         print "Marks in Computer Science=",self.cs
 
-a=marks        
+a=(marks)        
