@@ -19,12 +19,7 @@ class marks(student):
         self.maths=0
         self.cs=0
 
-    def readdata1(self):    
-        self.eng=int(raw_input("enter marks in English"))
-        self.phy=int(raw_input("enter marks in Physics"))
-        self.chem=int(raw_input("enter marks in Chemistry"))
-        self.maths=int(raw_input("enter marks in Maths"))
-        self.cs=int(raw_input("enter marks in Computer Science"))
+    def __init    
 
     def printdata1(self):
         print "Marks in English =",self.eng
@@ -33,4 +28,5 @@ class marks(student):
         print "Marks in Maths =",self.maths
         print "Marks in Computer Science=",self.cs
 
-a=(marks)        
+a=marks(12,13,14,14,30)
+print a
